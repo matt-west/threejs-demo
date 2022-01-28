@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+}
+
+.controls {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  display: inline-block;
+  background: #333;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.controls > div {
+  margin-bottom: 10px;
+}
+
+.controls > div:last-child {
+  margin-bottom: 0;
+}
+
+.label {
+  display: inline-block;
+  width: 60px;
+}
