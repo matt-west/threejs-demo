@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: Helvetica, sans-serif;
+  background: color(srgb 0.794 0.943 1);
 }
 
 .controls {
@@ -8,10 +9,11 @@ body {
   bottom: 20px;
   left: 20px;
   display: inline-block;
-  background: #333;
-  color: #fff;
+  background: #fff;
+  color: #333;
   padding: 20px;
   border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
 .controls > div {
@@ -22,7 +24,14 @@ body {
   margin-bottom: 0;
 }
 
+h2 {
+  font-size: 16px;
+  margin: 0 0 10px;
+}
+
 .label {
   display: inline-block;
-  width: 60px;
+  width: 50px;
+  font-size: 14px;
+  font-weight: 600;
 }
